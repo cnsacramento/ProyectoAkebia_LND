@@ -4,6 +4,8 @@ body {
     font-size: 16px;
 }
 
+/* DIV'S PRINCIPALES */
+
 .header {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -36,13 +38,22 @@ body {
     border-style: solid;
 }
 
-.table {
+/* TABLAS */
+
+.header .table {
+    display: table;
+    width: 100%;
+}
+
+.content .table {
     display: table;
     width: 100%;
 }
 
 .tr {
     display: table-row;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .td {
