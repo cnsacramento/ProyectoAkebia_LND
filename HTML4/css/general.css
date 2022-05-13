@@ -1,0 +1,126 @@
+body {
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    /*Otra forma -> border: 2px solid red*/
+}
+
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+
+}
+
+.footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.tr {
+    display: table-row;
+}
+
+.td {
+    display: table-cell;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/*
+.header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: 10px;
+    border-style: red;
+    border-width: 2px;
+    display: solid;
+}
+
+.table{display:table;}
+.tr{display:table-row;}
+.th{display:table-cell;}
+.td{
+    display:table-cell;
+			width:150px;
+			height:150px;
+			border:1px solid #000;
+			text-align:center;
+			vertical-align: middle;
+}
+.table-thead{display:table-header-group;}
+.table-tbody{display:table-row-group;}
+.table-tfoot{display:table-footer-group;}
+.table-caption{display:table-caption;}
+.col{display:table-column;}
+.colgroup{display:table-column-group;}
+
+.row{
+
+    display: table-row;
+
+}
+
+.logo{
+
+    display: table-column;
+    
+}
+.logo img{
+    width: 32px;
+}
+
+.navegacion{
+
+    display: table-column;
+}
+
+.presentacion{
+
+    display: table-column;
+}
+
+.descarga{
+
+    display: table-column;
+}
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color:10px;
+    border-style: blue;
+    border-width: 10px;
+}
+
+.footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: 10px;
+    border-style: yellow;
+    border-width: 10px;
+}
+*/
