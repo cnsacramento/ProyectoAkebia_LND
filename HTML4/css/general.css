@@ -89,10 +89,54 @@ body {
 
 #btnCompartir {
 
-    height:100px;
-    width: 100px;
+    height:50px;
+    width: 50px;
     border-radius: 50%;
     background-image: url("https://w7.pngwing.com/pngs/929/858/png-transparent-share-icon-computer-icons-sharethis-sharing-button-monochrome-sharing-share-icon.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#btnSupermercados {
+
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://icon-library.com/images/basket-icon/basket-icon-17.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#btnAgregar {
+
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://flyclipart.com/thumb2/small-icons-add-icons-instagram-icon-with-png-and-vector-format-884476.png");
+    background-size: cover;
+    background-position: center;
+  
+}
+
+#btnEliminar {
+
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://www.pngitem.com/pimgs/m/77-772668_remove-icon-png-transparent-png.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#btnBuscar {
+
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/64/64673.png");
     background-size: cover;
     background-position: center;
     
