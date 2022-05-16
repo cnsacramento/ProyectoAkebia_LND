@@ -17,6 +17,10 @@ body {
     /*Otra forma -> border: 2px solid red*/
 }
 
+.header .tr .td .button {
+    width: 100px;
+}
+
 .content {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -25,8 +29,28 @@ body {
     border-width: 2px;
     border-color: green;
     border-style: solid;
-
 }
+
+.content .imagenes {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.content .imagenes .td {
+
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.content .imagenes .td img {
+
+    border-radius: 15%;
+}
+
 
 .footer {
     margin-top: 10px;
@@ -61,6 +85,19 @@ body {
     border-width: 2px;
     border-style: solid;
 }
+
+
+#btnCompartir {
+
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url("https://w7.pngwing.com/pngs/929/858/png-transparent-share-icon-computer-icons-sharethis-sharing-button-monochrome-sharing-share-icon.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
 
 /*
 .header{
