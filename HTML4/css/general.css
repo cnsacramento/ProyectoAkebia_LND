@@ -155,3 +155,75 @@ body {
 #png {
     background:transparent;
 }
+
+#table-cuenta {
+    
+    display: inline-block;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border: solid;
+    margin-left: 40%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    
+}
+
+#email  {
+    padding-right: 30%;
+    margin-top: 5%;
+}
+
+#contrasenia  {
+    padding-right: 30%;
+    margin-top: 5%;
+}
+
+#crear-cuenta {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+#iniciar-sesion {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#td-akebia {
+    margin: auto;
+    width: 50%;
+}
+
+p {
+    margin-bottom: 50%;
+}
+
+.principal-td {
+    margin-top: 50%;
+}
+
+.center {
+    margin-left: 50%;
+}
+
+.table-conocenos {
+    display: flex;
+    justify-content: center;
+}
+
+#table-akebia {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#navbar {
+    margin: auto;
+    text-align: center;
+}
+
+
+
