@@ -22,18 +22,26 @@ header {
     border-color: red;
 }
 
+.left {
+    text-align: left;
+}
+
+.rigth {
+    text-align: right;
+}
+
 nav img {
     border: 0.1em;
     border-style: solid;
     border-color: darkgoldenrod;
     max-width: 4em;
-
 }
+
+
 
 nav a:nth-child(2){
 
     border: 0.1em;
     border-style: solid;
     border-color: green;
-    margin-left: ;
 }
