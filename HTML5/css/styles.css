@@ -3,7 +3,7 @@
 body {
 
     text-align: justify;
-    font-size: 1.2em; 
+    font-size: 1.2rem; 
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,7 +17,7 @@ img {
 
 header {
 
-    border: 0.2em;
+    border: 0.2rem;
     border-style: solid;
     border-color: red;
 }
@@ -30,18 +30,32 @@ header {
     text-align: right;
 }
 
+nav {
+    align-items: center;
+    margin-right: 1rem;
+    background-color: #a9c25d;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+
 nav img {
-    border: 0.1em;
+    border: 0.1rem;
     border-style: solid;
     border-color: darkgoldenrod;
-    max-width: 4em;
+    width: 4rem;
+    margin-left: 1rem;
 }
 
-
-
-nav a:nth-child(2){
-
-    border: 0.1em;
-    border-style: solid;
-    border-color: green;
+nav li:nth-child(1) {
+    float: left;
 }
+
+.creacion-cuenta {
+    border: solid;
+}
+
