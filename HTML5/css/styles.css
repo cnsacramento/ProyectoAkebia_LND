@@ -13,49 +13,403 @@ img {
     height: auto;
 }
 
-/* PRUEBAS DE ALINEAMIENTO */
+nav li{
+    display: inline-block;
+}
 
-header {
+/* INDEX */
 
+.index {
+    text-align: justify;
+    font-size: 1.2rem; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #371b58;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.index a {
+    text-decoration: none;
+    color: white;
     border: 0.2rem;
     border-style: solid;
-    border-color: red;
+    border-color: #5b4b8a;
+    background-color: #7858a6;
 }
 
-.left {
-    text-align: left;
+.wrapper {
+    display: inline;
+    text-align: center;
 }
 
-.rigth {
-    text-align: right;
+.wrapper img {
+    width: 10rem;
 }
 
-nav {
-    align-items: center;
-    margin-right: 1rem;
-    background-color: #a9c25d;
-    width: 100%;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 1rem;
-}
-
-
-nav img {
-    border: 0.1rem;
+.index nav {
+    border: 0.2rem;
     border-style: solid;
-    border-color: darkgoldenrod;
-    width: 4rem;
-    margin-left: 1rem;
+    border-color:#4c3575;
+    border-radius: 4rem;
+    background-color:#7858a6;
+    height: 6rem;
 }
 
-nav li:nth-child(1) {
-    float: left;
+.akebia-presentacion {
+    border-top: 0.5rem;
+    border-top-color: white;
+    border-top-style: dotted;
+    border-bottom: 0.5rem;
+    border-bottom-color: white;
+    border-bottom-style: dotted;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.features {
+    border-bottom: 0.5rem;
+    border-bottom-color: white;
+    border-bottom-style: dotted;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.akebia-todas-partes {
+    text-align: center;
+}
+
+.akebia-todas-partes ul {
+    display: inline;
+    list-style: none;
+}
+
+.akebia-todas-partes li, h4 {
+    display: inline;
+    list-style: none;
+}
+
+.akebia-todas-partes img{
+    max-width: 10rem;
+}
+
+.akebia-todas-partes form {
+    display: inline;
+}
+
+.akebia-todas-partes input[type="submit"] {
+    margin-top: 2rem;
+    color: white;
+    background-color: #7858a6;
+    border-radius: 2rem;
+    margin-left: 3rem;
+}
+
+.supermercados {
+    text-align: center;
+    border-top: 0.5rem;
+    border-top-style: dotted;
+    border-top-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem,
+}
+
+.supermercados input[type="image"] {
+    width: 8rem;
+}
+
+.supermercados ul  {
+    display: inline;
+    list-style: none;
+}
+
+.supermercados form{
+    display: inline;
+}
+
+.supermercados footer {
+    display: inline;
+    text-align: center;
+    border-top: 0.5rem;
+    border-top-style: dotted;
+    border-top-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem,
+}
+
+.supermercados footer li {
+    display: inline-block;
+    list-style: none;
+}
+
+
+/* Pagina registro */
+
+.logo {
+    max-width: 4rem;
+}
+
+.body-registro {
+    background-color: #371b58;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-registro li:nth-child(1), img, h1 {
+    display: inline;
+}
+
+.nav-registro a {
+    border: 0.1rem;
+    border-color: #7858a6;
+    border-style: solid;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+    background-color: #5b4b8a;
+    float: right;
+}
+
+.main-registro {
+    /* display: flex;
+    justify-content: center; */
+    border-style: solid;
+    border-color: #4c3575;
+    background-color: #5b4b8a;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+    padding-top: 0.2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-radius: 10%;
+}
+
+.main-registro input:not(:last-child) {
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+
+.main-registro input:last-child {
+    margin-top: 1rem;
+    border-color: #5b4b8a;
+    background-color: #7858a6
+}
+
+/* ALIMENTOS */
+
+.body-alimentos {
+    background-color: #371b58;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.body-alimentos nav{
+    
+    padding-bottom: 1rem;
+    border-bottom-color: #7858a6;
+    border-bottom-style: solid;
+    margin-bottom: 1rem;
+}
+
+.body-alimentos nav input:nth-child(1n) {
+    margin-top: 1rem;
+}
+
+.body-alimentos nav input:last-child {
+    color: white;
+    border: 0.2rem;
+    border-radius: 0.2rem;
+    border-color: #5b4b8a;
+    background-color: #7858a6;
+    height: 1.3rem;
+}
+
+.body-alimentos main {
+    display: grid;
+}
+
+.body-alimentos main label img:nth-child(1n){
+    max-width: 5rem;
+}
+
+.body-alimentos main table td:nth-child(1n) {
+    margin-top: 0.5rem;
+    padding-top: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 0.2rem;
+    border-color: #7858a6;
+    border-style: solid;
+    background-color: #5b4b8a
+}
+
+/* LISTAS */
+
+.listas {
+    text-align: justify;
+    font-size: 1.2rem;
+    background-color: #371b58;
+}
+
+.listas nav {
+    background-color: #4c3575;
+    border-radius: 0.5rem;
+}
+
+button {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    max-height: 2.7rem;
+    max-width: 2.9rem;
+}
+
+#btnCompartir {
+
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://w7.pngwing.com/pngs/929/858/png-transparent-share-icon-computer-icons-sharethis-sharing-button-monochrome-sharing-share-icon.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#btnSupermercados {
+
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://icon-library.com/images/basket-icon/basket-icon-17.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#btnAgregar {
+
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://flyclipart.com/thumb2/small-icons-add-icons-instagram-icon-with-png-and-vector-format-884476.png");
+    background-size: cover;
+    background-position: center;
+  
+}
+
+#btnEliminar {
+
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://www.pngitem.com/pimgs/m/77-772668_remove-icon-png-transparent-png.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#btnBuscar {
+
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/64/64673.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.listas main table {
+    display: grid;
+    align-content: center;
+}
+
+.listas table td input[type="image"] {
+    max-width: 15rem;
+}
+
+/* LISTA */
+
+.lista {
+    text-align: justify;
+    font-size: 1.2rem;
+    background-color: #371b58;
+}
+
+.lista nav {
+    border-bottom: 0.5rem;
+    border-bottom-style: double;
+    border-bottom-color: #5b4b8a;
+}
+
+.lista main {
+    border-style: solid;
+    border-color: #4c3575;
+    background-color: #5b4b8a;
+    margin-top: 1rem;
+    margin-right: 30%;
+    margin-bottom: 10rem;
+    margin-left: 30%;
+    padding-top: 0.2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-radius: 10%;
+}
+
+.lista  ul {
+    color: white;
+    text-decoration: none;
+}
+
+.lista ul img {
+    width: 2rem;
+
+}
+
+/* CUENTA */
+
+.cuenta {
+    text-align: justify;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #371b58;
+}
+
+.cuenta a {
+    color: white;
+    text-decoration: none;
+    border: 0.2rem;
+    border-style: solid;
+    border-color: #7858a6;
+    border-radius: 5%;
+    background-color: #5b4b8a;
+}
+
+#link-index {
+    border: none;
+    background-color: none;
+    border-style: none;
 }
 
 .creacion-cuenta {
-    border: solid;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 2rem;
+    background-color: #7858a6;
 }
 
+.cuenta input {
+    width: auto;
+}

@@ -10,40 +10,37 @@
         <link rel="stylesheet" href="../css/styles.css">
         <title>Cuenta Akebia</title>
     </head>
-    <body>
+    <body class="cuenta">
         <header>
             <nav>
                 <ul>
                     <li>
-                        <img src="../imagenes/iconos/akebia_logo.png" alt="Logo, Akebia">
+                        <a href="../html/index.html" id="link-index">
+                            <img src="../imagenes/iconos/akebia_logo.png" alt="Logo, Akebia" class="logo">
+                        </a>
                     </li>
                     <li>
                         <a href="../html/listas.html">LISTAS</a>
-                    </li>
-                    <li>
-                        <a href="../html/cuenta.html">CUENTA</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
             <section class="creacion-cuenta">
-                <center>
-                    <form>
-                        <h4>EMAIL</h4>
-                        <input type="text" placeholder="ejemplo@gmail.com" maxlength="50" required><br>
-                        <h4>CONTRASEÑA</h4>
-                        <input type="password" placeholder="6+ carácteres" minlength="6" maxlength="20" required><br><br>
-                        <input type="submit" value="Iniciar Sesión"><br><br>
-                    </form>
-                    <form action="../html/registro.html">
-                        <input type="submit" value="Crear Cuenta">
-                    </form>
-                    <p>También puedes iniciar sesión con: </p>
-                    <input type="image" src="../imagenes/iconos/google.png" width="20rem" height="20rem"><br>
-                        <p>OR</p>
-                    <input type="image" src="../imagenes/iconos/facebook.png" width="20rem" height="20rem"><br/>
-                </center>
+                <form>
+                    <h4>EMAIL</h4>
+                    <input type="text" placeholder="ejemplo@gmail.com" maxlength="50" required><br>
+                    <h4>CONTRASEÑA</h4>
+                    <input type="password" placeholder="6+ carácteres" minlength="6" maxlength="20" required><br><br>
+                    <input type="submit" value="Iniciar Sesión"><br><br>
+                </form>
+                <form action="../html/registro.html">
+                    <input type="submit" value="Crear Cuenta">
+                </form>
+                <p>También puedes iniciar sesión con: </p>
+                <input type="image" src="../imagenes/iconos/google.png" width="20rem" height="20rem"><br>
+                    <p>OR</p>
+                <input type="image" src="../imagenes/iconos/facebook.png" width="20rem" height="20rem"><br/>
             </section>
         </main>
     </body>
